@@ -1,0 +1,57 @@
+body, input, button{
+    background-color: white;
+    color: white;
+    font-family: Trebuchet MS, sans-serif;
+    margin: 15px;
+}
+label{font-size: large; padding: 10px; margin: 5px; font-weight: bold;}
+input{width: 50vh; background-color: black; opacity: 0.50;}
+
+/* botão estilizado */
+.button-css {
+  background-color:  white;
+  border-radius: 20px;
+  border: 2px solid #222;
+  box-sizing: border-box;
+  color: grey;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-css:hover,
+.button-css:focus {
+  opacity: .75;
+  background-color: #222;
+}
+.alinhar{
+  display: flex;
+  flex-direction: column;
+  justify-items: space-around;
+  background-color: rgb(68, 68, 68);
+  border-radius: 10px;
+}
+h1{margin-top: 3%;}
+.margin{
+  margin-bottom: 8%;
+  max-width: 35%;
+  background-color: rgb(99, 98, 98);
+  border: 2px solid #222;
+  border-radius: 10%;
+}
+
